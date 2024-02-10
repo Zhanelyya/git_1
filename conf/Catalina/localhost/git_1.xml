@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="D:/lab java ee/git_1/src/main/webapp">
+  <Resources cacheMaxSize="10240">
+    <PreResources base="D:/lab java ee/git_1/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+    <PostResources base="D:/apache-tomcat-10.1.18/lib/servlet-api.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/servlet-api.jar"/>
+  </Resources>
+</Context>
